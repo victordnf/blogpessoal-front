@@ -12,18 +12,18 @@ function Navbar() {
     <AppBar position="static">
       <Toolbar variant="dense">
 
-      <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="menu"
-                        sx={{ mr: 2 }}
-                    >
-                        <MenuIcon />
-                    </IconButton>
-                    
+        <IconButton
+          size="large"
+          edge="start"
+          color="inherit"
+          aria-label="menu"
+          sx={{ mr: 2 }}
+        >
+          <MenuIcon />
+        </IconButton>
+
         <Box style={{ cursor: "pointer" }} >
-         
+
           <Typography variant="h5" color="inherit">
             BlogPessoal
           </Typography>
@@ -32,27 +32,27 @@ function Navbar() {
         <Box display="flex" justifyContent="start">
           <Box mx={1} style={{ cursor: "pointer" }}>
             <Typography variant="h6" color="inherit">
-            <Button color="inherit">Home</Button>
+              <Button color="inherit">Home</Button>
             </Typography>
           </Box>
           <Box mx={1} style={{ cursor: "pointer" }}>
             <Typography variant="h6" color="inherit">
-            <Button color="inherit">Postagens</Button>
+              <Button color="inherit">Postagens</Button>
             </Typography>
           </Box>
           <Box mx={1} style={{ cursor: "pointer" }}>
             <Typography variant="h6" color="inherit">
-            <Button color="inherit">Temas</Button>
+              <Button color="inherit">Temas</Button>
             </Typography>
           </Box>
           <Box mx={1} style={{ cursor: "pointer" }}>
             <Typography variant="h6" color="inherit">
-            <Button color="inherit">Cadastrar Temas</Button>
+              <Button color="inherit">Cadastrar Temas</Button>
             </Typography>
           </Box>
           <Box mx={1} style={{ cursor: "pointer" }}>
             <Typography variant="h6" color="inherit">
-            <Button color="inherit">Logout</Button>
+              <Button color="inherit">Logout</Button>
             </Typography>
           </Box>
         </Box>

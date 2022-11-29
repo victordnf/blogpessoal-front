@@ -4,10 +4,10 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import './Footer.css';
 
-function Footer () {
-    return(
+function Footer() {
+    return (
         <>
-                    <Grid container direction="row" justifyContent="center" alignItems="center">
+            <Grid container direction="row" justifyContent="center" alignItems="center">
                 <Grid alignItems="center" item xs={12}>
                     <Box style={{ backgroundColor: "#3F51B5", height: "120px" }}>
                         <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
@@ -41,4 +41,4 @@ function Footer () {
     )
 }
 
-export {Footer}
+export { Footer }

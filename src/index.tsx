@@ -3,20 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createTheme, ThemeProvider } from '@material-ui/core';
-import { purple } from '@mui/material/colors';
-import { blue, red } from '@material-ui/core/colors';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: red[500],
-    },
-    secondary: {
-      main: blue[200],
-    },
-  },
-});
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -24,9 +10,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
       <App />
-    </ThemeProvider>
   </React.StrictMode>
 );
 
