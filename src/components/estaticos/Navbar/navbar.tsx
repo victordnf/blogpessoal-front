@@ -50,13 +50,15 @@ function Navbar() {
               <Button color="inherit">Cadastrar Temas</Button>
             </Typography>
           </Box>
-          <Link to='/login' className="text-decorator-none">
+          
             <Box mx={1} style={{ cursor: "pointer", color: 'white' }}>
               <Typography variant="h6" color="inherit">
+                <Link to='/login' className="text-decorator-none">
                 <Button color="inherit">Logout</Button>
+                </Link>
               </Typography>
             </Box>
-          </Link>
+          
         </Box>
 
       </Toolbar>
